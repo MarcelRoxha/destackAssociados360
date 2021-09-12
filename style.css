@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.form-signin{
+    background: white;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.text-center{
+    margin: 0 auto;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    width: 500px;
+    background: linear-gradient(150deg, #01637f,#323232, #666666);
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+    body{
+        padding: 10px;
+        
+    }
+  }
