@@ -102,4 +102,52 @@ body{
     .content{
       width: 100%;
     }
-    
+
+    .pagina-selecionada{
+      color: #ecedee;
+      background: red;
+      padding: 20px;
+      font-size: 16px;
+     }
+
+     .formulario-lancar{
+      display: block;
+      margin: 0 auto;
+      margin-top: 5%;
+      width: 768px;
+     }
+
+     .container{
+
+      position: relative;
+      width: 400px;
+      min-height: 400px;
+      background: linear-gradient(150deg, #01637f,#323232, #666666);
+      border-radius: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+     }
+
+      #dycalendar{
+
+        width: 100%;
+        padding: 20px;
+      }
+
+      #dycalendar table{ 
+        width: 100%;
+        margin-top: 40px;
+      }
+
+      #dycalendar table td{ 
+       color: white;
+       padding: 10px;
+      }
+
+      #dycalendar table tr:nth-chuld(1)td{ 
+        color: white;
+        padding: 10px;
+       }
+
