@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+  
+  background: linear-gradient(150deg, #01637f,#323232, #666666);
+}
 
 
 .form-signin{
@@ -18,6 +22,8 @@
     width: 500px;
     background: linear-gradient(150deg, #01637f,#323232, #666666);
 }
+
+
 
 .bd-placeholder-img {
     font-size: 1.125rem;
@@ -39,7 +45,61 @@
     .nav-item{
       color: black !important;
     
+    }   
+  }
+
+.menu-lateral{ 
+  min-width: 250px; 
+  max-width: 250px; 
+  min-height: calc(100vh - 55px); 
+  background: black;
+  transition: all 0.3s;
+ 
+  }
+
+  .menu-lateral ul li a{  
+    display: block;
+    color: blanchedalmond;
+    padding: 15px;
+    text-decoration: none;
+    transition: all 1.5s;
+  }
+
+  .menu-lateral ul li a:hover{
+      color: #ecedee;
+      background: #354358;
+      padding: 20px;
+      font-size: 16px;
+     }
+
+     .titulo h3{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 48px;      
+      margin-left: 100%;
+      
     }
 
-   
-  }
+     @media (max-width: 768px) {
+    
+      .menu-lateral{
+        margin-left: -250px;
+      }
+      .titulo h3{       
+        font-size: 24px;      
+        margin-left: 100%;      
+        
+      }
+      .menu_perfil{
+        visibility: collapse;
+      }
+    
+    
+    }
+    .menu-lateral-remove{
+      margin-left: -250px;
+    }
+
+    .content{
+      width: 100%;
+    }
+    
