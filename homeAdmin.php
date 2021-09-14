@@ -37,7 +37,7 @@ include 'dbconfig.php';
           <li class="nav-item dropdown"> 
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               <img src="https://www.dominiowebsites.com.br/download/image?token=ef46604c1500ba58410c68ec4eae5527" width="20" height="20">
-              Usuário
+              Home Admin
               </a>
               
              

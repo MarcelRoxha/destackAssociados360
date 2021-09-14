@@ -63,9 +63,9 @@ include 'dbconfig.php';
                 <ul class="list-unstyled">
                     <li><a href="paginaDashboard.php">DASHBOARD</a></li>
                     <li><a href="paginaLancar.php">LANÇAR</a></li>
-                    <li><a class="pagina-selecionada" href="paginaFornecedore.php">FORNECEDORES</a></li>
-                    <li><a href="paginaGrafico.php">GRÁFICOS</a></li>
-                    <li><a href="paginaConsultar.php">CONSULTAR</a></li>
+                    <li><a href="paginaFornecedore.php">FORNECEDORES</a></li>
+                    <li><a class="pagina-selecionada" href="paginaGrafico.php">GRÁFICOS</a></li>
+                    <li><a href="paginaConsultar.php    ">CONSULTAR</a></li>
                 </ul>
             </nav>
         </div>
