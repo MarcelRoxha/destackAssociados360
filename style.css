@@ -4,10 +4,9 @@
 }
 
 body{
-  
-  background: linear-gradient(150deg, #01637f,#323232, #666666);
+  background: linear-gradient(90deg,  #01637f,#323232,  #666666);
+ 
 }
-
 
 .form-signin{
     background: white;
@@ -20,10 +19,13 @@ body{
     margin-top: 6%;
     margin-bottom: 6%;
     width: 500px;
-    background: linear-gradient(150deg, #01637f,#323232, #666666);
+    background: linear-gradient(150deg, rgb(#01637f,#323232, #666666),#323232, #666666);
 }
 
+.text-center-home{
 
+  background: rgb(#01637f,#323232, #666666);
+}
 
 .bd-placeholder-img {
     font-size: 1.125rem;
@@ -150,4 +152,33 @@ body{
         color: white;
         padding: 10px;
        }
+
+       input[type="checkbox"]{
+         display: none;
+        position: absolute;
+       }
+       .menu-lateral-admin{         
+         position: absolute;         
+       }
+
+
+       nav.menu-lateral{   
+       margin-top: -24px;
+       padding-top: 60px;       
+       margin-left: -350px;
+       position: absolute;
+       }
+
+       input[type="checkbox"]:checked ~ nav.menu-lateral {        
+        transform: translateX(350px);
+      }
+      label i{
+        position: absolute;
+        margin-top: -15px;
+        z-index: 1;
+        transition:all 0.75s;
+      }
+      input[type="checkbox"]:checked ~ label i{        
+        transform: translateX(200px);
+      }
 

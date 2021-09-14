@@ -24,10 +24,7 @@ include 'dbconfig.php';
 
   <nav class="navbar navbar-expand navbar-dark" style="background: black">
     <div class="container-fluid">
-      <a class="menu-barra">
-        <i class="fal fa-bars fa-2x"></i>
-      </a>
-
+     
       <a href="homeAdmin.php">
         <img src="./imagens_empresa/65ab872f-fa8e-4b2b-bdd4-376c93f02752_uploads_destacklogo.png" width="150px" href="home.php">
 
@@ -57,7 +54,11 @@ include 'dbconfig.php';
       </div>
     </div>
   </nav>
-  <div class="d-flex">
+  <div> 
+    <div class="check-menu">
+        <input type="checkbox" id="chec">
+        <label for="chec"><i class="fal fa-bars fa-3x" style="color: blanchedalmond;"></i></label>   
+    
     <nav class="menu-lateral">
       <ul class="list-unstyled">
         <li><a href="#">DASHBOARD</a></li>
@@ -67,11 +68,7 @@ include 'dbconfig.php';
         <li><a href="#">CONSULTAR</a></li>
       </ul>
     </nav>
-
-    <div>
-      C
-    </div>
-
+    </div>  
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="dashboard.js"></script>
