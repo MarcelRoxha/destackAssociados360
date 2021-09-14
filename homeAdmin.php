@@ -61,7 +61,7 @@ include 'dbconfig.php';
     
     <nav class="menu-lateral">
       <ul class="list-unstyled">
-        <li><a href="#">DASHBOARD</a></li>
+        <li><a class="pagina-selecionada" href="#">DASHBOARD</a></li>
         <li><a href="homeCliente.php">ÁREA DO CLIENTE</a></li>
         <li><a href="#">FORNECEDORES</a></li>
         <li><a href="#">GRÁFICOS</a></li>
